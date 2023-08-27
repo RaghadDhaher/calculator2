@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">calculator2</string>
+    <string name="raghad_s_calculator">Raghad\'s calculator</string>
+    <string name="login">Login</string>
+    <string name="enter_email_address">enter Email Address</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? sign up</string>
+    <string name="reset_password">Reset Password</string>
+</resources>
