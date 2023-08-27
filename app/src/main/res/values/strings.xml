@@ -7,4 +7,8 @@
     <string name="remember_me">Remember Me</string>
     <string name="don_t_have_an_account_sign_up">Don\'t have an account? sign up</string>
     <string name="reset_password">Reset Password</string>
+    <string name="regster">Regster</string>
+    <string name="full_name">Full name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="already_have_an_account_login">Already have an account ? login</string>
 </resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".RegesterationScreen">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/ivsplash"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/regster"
+        android:textSize="32dp"
+        android:padding="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/full_name"
+        android:inputType="textPersonName"
+        android:id="@+id/etFullName"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/enter_email_address"
+        android:inputType="textEmailAddress"
+        android:id="@+id/etEmail" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/phone_number"
+        android:inputType="phone"
+        android:id="@+id/etPhone" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:id="@+id/etPassword" />
+
+    <Button
+        android:layout_width="250sp"
+        android:layout_gravity="center"
+        android:layout_height="50sp"
+        android:layout_marginTop="20dp"
+        android:text="@string/regster"
+        android:id="@+id/btnRegster"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/already_have_an_account_login"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tvLogin"/>
+
+</LinearLayout>
