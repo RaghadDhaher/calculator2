@@ -14,7 +14,7 @@ class RegesterationScreen : AppCompatActivity() {
         binding = ActivityRegesterationScreenBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.btnRegster.setOnClickListener {
-            val intent = Intent( this, MainActivity::class.java)
+            val intent = Intent( this, calculatorActivity::class.java)
             startActivity(intent)
             finish()
         }

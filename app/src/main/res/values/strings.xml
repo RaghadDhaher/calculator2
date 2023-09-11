@@ -11,4 +11,6 @@
     <string name="full_name">Full name</string>
     <string name="phone_number">Phone Number</string>
     <string name="already_have_an_account_login">Already have an account ? login</string>
+    <string name="enter_first_number">Enter First Number</string>
+    <string name="enter_second_number">Enter Second Number</string>
 </resources>
